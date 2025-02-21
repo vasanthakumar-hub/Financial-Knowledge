@@ -12,10 +12,9 @@ Financial Knowledge is a web-based platform designed to educate users on various
 Frontend: HTML, CSS, JavaScript
 Backend: Flask (Python)
 Database: SQL (SQLite/MySQL/PostgreSQL)
+
 📂 Project Structure
-graphql
-Copy
-Edit
+
 Financial-Knowledge/
 │── static/             # CSS, JavaScript, and images  
 │── templates/          # HTML templates for rendering views  
@@ -24,38 +23,28 @@ Financial-Knowledge/
 │── README.md           # Documentation  
 │── database.db         # SQLite database file (if applicable)  
 🚀 Installation & Setup
-Clone the repository
 
-bash
-Copy
-Edit
+1.Clone the repository
+
 git clone https://github.com/vasanthakumar-hub/Financial-Knowledge.git
 cd Financial-Knowledge
-Set up a virtual environment (Optional but recommended)
 
-bash
-Copy
-Edit
+2.Set up a virtual environment (Optional but recommended)
+
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate  # On Windows
-Install dependencies
 
-bash
-Copy
-Edit
+3.Install dependencies
+
 pip install -r requirements.txt
-Run the application
 
-bash
-Copy
-Edit
+4.Run the application
+
 python app.py
-Open in your browser
 
-cpp
-Copy
-Edit
+5.Open in your browser
+
 http://127.0.0.1:5000
 
 🤝 Contributing
